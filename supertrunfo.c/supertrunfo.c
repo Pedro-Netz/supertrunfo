@@ -95,47 +95,67 @@ printf("*.*.*.*.*.*.*.*.*.*.*.*\n     SUPER TRUNFO\n*.*.*.*.*.*.*.*.*.*.*.*\n");
 
     printf("▂▃▄▅▆▇█▓▒░BATALHA DAS CARTAS░▒▓█▇▆▅▄▃▂\n");
      
-    if(populacao1 > populacao2){
+    if(populacao1 > populacao2)
+    {
       printf("Polulação : A cidade de %s foi a vencedora!\n", cidade1);
-    } else {
+    } else if (populacao1 < populacao2)
+    {
       printf("Polulação : A cidade de %s foi a vencedora!\n", cidade2);
+    } else {
+      printf("Ouve um Empate !");
     }
 
-    if(area1 > area2) {
+    if(area1 > area2)
+    {
       printf("Área : A cidade de %s foi a vencedora!\n", cidade1);
-    } else {
+    } else if (area1 < area2)
+    {
       printf("Área : A cidade de %s foi a vencedora!\n", cidade2);
-    }
+    } else {
+      printf("Ouve um Empate !");}
 
-    if (pib1 > pib2){
+    if (pib1 > pib2)
+    {
       printf("P.I.B : A cidade de %s foi a vencedora!\n", cidade1);
-    } else {
+    } else if (pib1 < pib2)
+    {
       printf("P.I.B : A cidade de %s foi a vencedora!\n", cidade2);
-    }
+    }else {
+      printf("Ouve um Empate !");}
 
-    if(turisticos1 > turisticos2){
+    if(turisticos1 > turisticos2)
+    {
       printf("Pontos Turísticos : A cidade de %s foi a vencedora!\n", cidade1);
-    } else {
+    } else if (turisticos1 < turisticos2)
+    {
       printf("Pontos Turísticos : A cidade de %s foi a vencedora!\n", cidade2);
-    }
+    }else {
+      printf("Ouve um Empate !");}
 
-    if(densidade1 < densidade2){
+    if(densidade1 < densidade2)
+    {
       printf("Densidade Populacional : A cidade de %s foi a vencedora!\n", cidade1);
-    } else{
+    } else if (densidade1 > densidade2)
+    {
       printf("Densidade Populacional : A cidade de %s foi a vencedora!\n", cidade2);
-    }
+    }else {
+      printf("Ouve um Empate !");}
 
     if(pibcapta1 > pibcapta2){
       printf("P.I.B per capita : A cidade de %s foi a vencedora!\n", cidade1);
-    } else {
+    } else if(pibcapta1 < pibcapta2)
+    {
       printf("P.I.B per capita : A cidade de %s foi a vencedora!\n", cidade2);
-    }
+    }else {
+      printf("Ouve um Empate !");}
 
     if(superpoder1 > superpoder2){
       printf("Super Poder : A cidade de %s foi a vencedora!\n", cidade1);
-    }else {
+    }else if(superpoder1 < superpoder2)
+    {
       printf("Super Poder : A cidade de %s foi a vencedora!\n", cidade2);
-    }
+    }else {
+      printf("Ouve um Empate !");}
   
 
 
